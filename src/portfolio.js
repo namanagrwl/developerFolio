@@ -26,7 +26,7 @@ const greeting = {
     "A passionate DevOps Engineer 🚀 skilled in Kubernetes, Ansible, Jenkins, Docker, Terraform, Prometheus, Elastic Stack, and other essential tools for streamlined, efficient, and scalable development workflows."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1mZNRrGkeIBhkUq0EvIpvbedYtnT4bfuWOQC_JmnTFXg/edit?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1Lexq66iJyBxGkB058zVLXWzchgm5F-SaofHWz3fqZSM/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
