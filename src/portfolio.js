@@ -207,14 +207,58 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true  // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  display: false // Set false to hide this section, defaults to true
+  title: "Projects",
+  subtitle: "SOME PROJECTS I WORKED WHILE LEARNING AND EXPORING DEVOPS",
+  projects: [
+    {
+      projectName: "CI/CD pipeline with Jenkins",
+      projectDesc: "Simple java-maven-app to build a complete CI/CD pipeline using Jenkins. Different Stages involve, building of a jar file, building a docker image, creating a deployment server through Terraform on AWS, and finally deploying the docker image on development server.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/namanagrwl/Complete_CI-CD_pipeline?tab=readme-ov-file#complete-cicd-pipeline"
+        }
+      ]
+    },
+    {
+      projectName: "Terraform Project",
+      projectDesc: "This is a repository which showcase my work during the learning process of Terraform. Different branch of the repository represent different Services implemented through Terraform.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/namanagrwl/terraform-learn?tab=readme-ov-file#learning-terraform"
+        }
+      ]
+    },
+    {
+      projectName: "Ansible Project",
+      projectDesc: "This is a repository which showcase my work during the learning process of Ansible (a automation tool which can be used for configuration management of remote server).",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/namanagrwl/ansible-learn?tab=readme-ov-file#learning-ansible"
+        }
+      ]
+    },
+    {
+      projectName: "Microservice demo app",
+      projectDesc: "In this project, I have monitored google demo-microservice-app deployed on a AWS EKS cluster using Prometheus and Grafana.",
+      footerLink: [
+        {
+          name: "Visit GitHub",
+          url: "https://github.com/namanagrwl/prometheus-monitoring?tab=readme-ov-file#monitoring-with-prometheus"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
